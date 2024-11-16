@@ -6,6 +6,7 @@
     "test": "jest"
   },
   "jest": {
+    "testTimeout": 10000,
     "testEnvironment": "node"
   },
   "keywords": [],
@@ -24,6 +25,7 @@
     "swagger-ui-express": "^5.0.1"
   },
   "devDependencies": {
+    "autocannon": "^8.0.0",
     "jest": "^29.7.0",
     "supertest": "^7.0.0"
   }
