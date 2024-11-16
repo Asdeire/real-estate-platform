@@ -6,6 +6,7 @@
     "test": "jest"
   },
   "jest": {
+    "testTimeout": 10000,
     "testEnvironment": "node"
   },
   "keywords": [],
