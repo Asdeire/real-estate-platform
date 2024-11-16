@@ -1,8 +1,8 @@
 const ListingRepository = require('../../infrastructure/repositories/ListingRepository');
 
 class ListingService {
-  constructor() {
-    this.listingRepository = new ListingRepository();
+  constructor(listingRepository = new ListingRepository()) {
+    this.listingRepository = listingRepository;
   }
 
   /**

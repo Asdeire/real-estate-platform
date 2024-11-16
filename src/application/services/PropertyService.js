@@ -1,8 +1,8 @@
 const PropertyRepository = require('../../infrastructure/repositories/PropertyRepository');
 
 class PropertyService {
-  constructor() {
-    this.propertyRepository = new PropertyRepository();
+  constructor(propertyRepository = new PropertyRepository()) {
+    this.propertyRepository = propertyRepository;
   }
 
   /**

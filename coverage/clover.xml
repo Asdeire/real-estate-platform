@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1731760856661" clover="3.2.0">
+  <project timestamp="1731760856661" name="All files">
+    <metrics statements="72" coveredstatements="56" conditionals="3" coveredconditionals="0" methods="51" coveredmethods="35" elements="126" coveredelements="91" complexity="0" loc="72" ncloc="72" packages="3" files="9" classes="9"/>
+    <package name="application.services">
+      <metrics statements="25" coveredstatements="25" conditionals="3" coveredconditionals="0" methods="19" coveredmethods="19"/>
+      <file name="ListingService.js" path="C:\Users\oleks\Desktop\client-server-architecture\real-estate-platform\src\application\services\ListingService.js">
+        <metrics statements="8" coveredstatements="8" conditionals="1" coveredconditionals="0" methods="6" coveredmethods="6"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="5" count="5" type="stmt"/>
+        <line num="14" count="1" type="stmt"/>
+        <line num="23" count="1" type="stmt"/>
+        <line num="33" count="1" type="stmt"/>
+        <line num="42" count="1" type="stmt"/>
+        <line num="51" count="1" type="stmt"/>
+        <line num="55" count="1" type="stmt"/>
+      </file>
+      <file name="PropertyService.js" path="C:\Users\oleks\Desktop\client-server-architecture\real-estate-platform\src\application\services\PropertyService.js">
+        <metrics statements="8" coveredstatements="8" conditionals="1" coveredconditionals="0" methods="6" coveredmethods="6"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="5" count="5" type="stmt"/>
+        <line num="14" count="1" type="stmt"/>
+        <line num="23" count="1" type="stmt"/>
+        <line num="33" count="1" type="stmt"/>
+        <line num="42" count="1" type="stmt"/>
+        <line num="51" count="1" type="stmt"/>
+        <line num="55" count="1" type="stmt"/>
+      </file>
+      <file name="UserService.js" path="C:\Users\oleks\Desktop\client-server-architecture\real-estate-platform\src\application\services\UserService.js">
+        <metrics statements="9" coveredstatements="9" conditionals="1" coveredconditionals="0" methods="7" coveredmethods="7"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="5" count="6" type="stmt"/>
+        <line num="14" count="1" type="stmt"/>
+        <line num="23" count="1" type="stmt"/>
+        <line num="33" count="1" type="stmt"/>
+        <line num="42" count="1" type="stmt"/>
+        <line num="51" count="1" type="stmt"/>
+        <line num="60" count="1" type="stmt"/>
+        <line num="64" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="domain.interfaces">
+      <metrics statements="19" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="16" coveredmethods="0"/>
+      <file name="IListingRepository.js" path="C:\Users\oleks\Desktop\client-server-architecture\real-estate-platform\src\domain\interfaces\IListingRepository.js">
+        <metrics statements="6" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="5" coveredmethods="0"/>
+        <line num="8" count="0" type="stmt"/>
+        <line num="17" count="0" type="stmt"/>
+        <line num="27" count="0" type="stmt"/>
+        <line num="36" count="0" type="stmt"/>
+        <line num="45" count="0" type="stmt"/>
+        <line num="49" count="2" type="stmt"/>
+      </file>
+      <file name="IPropertyRepository.js" path="C:\Users\oleks\Desktop\client-server-architecture\real-estate-platform\src\domain\interfaces\IPropertyRepository.js">
+        <metrics statements="6" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="5" coveredmethods="0"/>
+        <line num="8" count="0" type="stmt"/>
+        <line num="17" count="0" type="stmt"/>
+        <line num="27" count="0" type="stmt"/>
+        <line num="36" count="0" type="stmt"/>
+        <line num="45" count="0" type="stmt"/>
+        <line num="49" count="2" type="stmt"/>
+      </file>
+      <file name="IUserRepository.js" path="C:\Users\oleks\Desktop\client-server-architecture\real-estate-platform\src\domain\interfaces\IUserRepository.js">
+        <metrics statements="7" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="6" coveredmethods="0"/>
+        <line num="8" count="0" type="stmt"/>
+        <line num="17" count="0" type="stmt"/>
+        <line num="27" count="0" type="stmt"/>
+        <line num="36" count="0" type="stmt"/>
+        <line num="45" count="0" type="stmt"/>
+        <line num="54" count="0" type="stmt"/>
+        <line num="58" count="2" type="stmt"/>
+      </file>
+    </package>
+    <package name="infrastructure.repositories">
+      <metrics statements="28" coveredstatements="28" conditionals="0" coveredconditionals="0" methods="16" coveredmethods="16"/>
+      <file name="ListingRepository.js" path="C:\Users\oleks\Desktop\client-server-architecture\real-estate-platform\src\infrastructure\repositories\ListingRepository.js">
+        <metrics statements="9" coveredstatements="9" conditionals="0" coveredconditionals="0" methods="5" coveredmethods="5"/>
+        <line num="1" count="2" type="stmt"/>
+        <line num="2" count="2" type="stmt"/>
+        <line num="3" count="2" type="stmt"/>
+        <line num="7" count="1" type="stmt"/>
+        <line num="11" count="1" type="stmt"/>
+        <line num="15" count="1" type="stmt"/>
+        <line num="19" count="1" type="stmt"/>
+        <line num="23" count="1" type="stmt"/>
+        <line num="27" count="2" type="stmt"/>
+      </file>
+      <file name="PropertyRepository.js" path="C:\Users\oleks\Desktop\client-server-architecture\real-estate-platform\src\infrastructure\repositories\PropertyRepository.js">
+        <metrics statements="9" coveredstatements="9" conditionals="0" coveredconditionals="0" methods="5" coveredmethods="5"/>
+        <line num="1" count="2" type="stmt"/>
+        <line num="2" count="2" type="stmt"/>
+        <line num="3" count="2" type="stmt"/>
+        <line num="7" count="1" type="stmt"/>
+        <line num="11" count="1" type="stmt"/>
+        <line num="15" count="1" type="stmt"/>
+        <line num="19" count="1" type="stmt"/>
+        <line num="23" count="1" type="stmt"/>
+        <line num="27" count="2" type="stmt"/>
+      </file>
+      <file name="UserRepository.js" path="C:\Users\oleks\Desktop\client-server-architecture\real-estate-platform\src\infrastructure\repositories\UserRepository.js">
+        <metrics statements="10" coveredstatements="10" conditionals="0" coveredconditionals="0" methods="6" coveredmethods="6"/>
+        <line num="1" count="2" type="stmt"/>
+        <line num="2" count="2" type="stmt"/>
+        <line num="3" count="2" type="stmt"/>
+        <line num="7" count="1" type="stmt"/>
+        <line num="11" count="1" type="stmt"/>
+        <line num="15" count="1" type="stmt"/>
+        <line num="19" count="1" type="stmt"/>
+        <line num="23" count="1" type="stmt"/>
+        <line num="27" count="1" type="stmt"/>
+        <line num="31" count="2" type="stmt"/>
+      </file>
+    </package>
+  </project>
+</coverage>
